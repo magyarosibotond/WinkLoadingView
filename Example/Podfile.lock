@@ -1,0 +1,16 @@
+PODS:
+  - WinkLoadingView (0.1.0)
+
+DEPENDENCIES:
+  - WinkLoadingView (from `../`)
+
+EXTERNAL SOURCES:
+  WinkLoadingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WinkLoadingView: 384fee71d0fdc0b2c4f81c175e9fa9c93ac5bd32
+
+PODFILE CHECKSUM: 0e78b8499f4877d6d4e1006188593897c5bb7b46
+
+COCOAPODS: 1.2.0

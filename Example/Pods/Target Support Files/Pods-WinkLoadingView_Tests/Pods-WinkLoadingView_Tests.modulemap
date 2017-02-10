@@ -1,0 +1,6 @@
+framework module Pods_WinkLoadingView_Tests {
+  umbrella header "Pods-WinkLoadingView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
