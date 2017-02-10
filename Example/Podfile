@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WinkLoadingView_Example' do
+  pod 'WinkLoadingView', :path => '../'
+
+  target 'WinkLoadingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
