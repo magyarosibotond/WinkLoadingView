@@ -7,18 +7,57 @@
 //
 
 import UIKit
+import WinkLoadingView
 
 class ViewController: UIViewController {
 
+    // MARK: - Properties
+
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var loadingView: WinkLoadingView!
+
+    fileprivate var data: [String] = []
+
+    // MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        tableView.tableFooterView = UIView()
+        tableView.dataSource = self
+
+        loadingView.animationCompletionHandler = {
+            self.tableView.reloadData()
+            self.loadingView.isHidden = true
+        }
+
+        loadData()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    // MARK: - Data
 
+    private func loadData() {
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
+            self.loadingView.startLoading()
+        }
+
+
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 4) {
+            self.data = ["merise", "prythee", "sharecropper", "gogetting", "saponite", "microtherm", "kohlrabi", "splenetic", "alabastos", "cobalt"]
+            self.loadingView.finishLoading()
+        }
+    }
 }
 
+extension ViewController: UITableViewDataSource {
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        cell.textLabel?.text = data[indexPath.row]
+        return cell
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "WinkLoadingView",
+  "version": "0.1.0",
+  "summary": "A short description of WinkLoadingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/magyarosibotond/WinkLoadingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "magyarosibotond": "mboti@halcyonmobile.com"
+  },
+  "source": {
+    "git": "https://github.com/magyarosibotond/WinkLoadingView.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/MagyarosiBotond",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WinkLoadingView/Classes/**/*"
+}
