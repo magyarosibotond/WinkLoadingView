@@ -1,0 +1,18 @@
+[
+  {
+    "id": "27d102cf-54ab-46f6-b39b-e311901b27a4",
+    "email": "magyarosibotond@gmail.com",
+    "password_hash": "$2a$10$S.oOAG1gNwWqPoQSXPSoxOMhSZSGwwITuD4/8GeVpYMyWdqCmPdRS",
+    "provider_credentials": [
+      {
+        "id": "22f0ca55-8663-4c2f-81c5-cb3675721197",
+        "email": "magyarosibotond@gmail.com",
+        "full_name": "Initial Onboarding User credentials",
+        "provider_name": "GitHub",
+        "type": "github",
+        "remote_host": "github.com",
+        "encrypted_api_token": "8hYC5xqIUWbxT3VpLv6UVLwB3QTgqJReItRJm3MhhjpQF7+ax1YUZZNT7YZq\nDJlG3BMSMR/qUYdytxBlxSXLCw==\n"
+      }
+    ]
+  }
+]
