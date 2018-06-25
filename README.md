@@ -1,5 +1,6 @@
 # WinkLoadingView
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e3d0c2aa44bf49b79a2d8d1d0618f4b2)](https://app.codacy.com/app/magyarosibotond/WinkLoadingView?utm_source=github.com&utm_medium=referral&utm_content=magyarosibotond/WinkLoadingView&utm_campaign=badger)
 [![CI Status](http://img.shields.io/travis/magyarosibotond/WinkLoadingView.svg?style=flat)](https://travis-ci.org/magyarosibotond/WinkLoadingView)
 [![Version](https://img.shields.io/cocoapods/v/WinkLoadingView.svg?style=flat)](http://cocoapods.org/pods/WinkLoadingView)
 [![License](https://img.shields.io/cocoapods/l/WinkLoadingView.svg?style=flat)](http://cocoapods.org/pods/WinkLoadingView)
